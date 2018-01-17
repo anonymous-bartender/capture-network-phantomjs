@@ -1,0 +1,32 @@
+Hi,
+
+QA has validated the required changes and they are working fine. No issues are observed during this testing.
+
+QA NOTE
+-                All present(old) URLs are verified on the basis of their successful redirection (301) to their corresponding new page. 
+-                Also the blog URLs that do not have updated content goes to Blog (stage) home page.
+-                Find processed output file from automation utility which was used to validate this change. No test cases were formed for this testing. 
+
+TEST BED
+-                Windows + Firefox, Chrome
+-                Mac + Safari
+
+TEST URL
+-                https://blogstage.startpage.com{/blog|/blog-de}/<url>
+
+CHECKLIST
+-                Understand Request and Interactions.................................Pass
+-                Accuracy  ............................................................................Pass
+-                Business goals    .................................................................Pass
+-                In application messages  .....................................................Pass
+-                Front-end compatibility ........................................................Pass
+-                Graphic design.....................................................................Pass
+-                Handling anomalies     .........................................................Pass
+-                Handling buttons/links..........................................................Pass
+-                Jeopardized review..............................................................Pass
+-                Languages used to test the changes...................................Pass*
+-                JS errors in console ............................................................Pass
+-                Testing performed using Search and Interface languages...N/A
+* Tested in 2 languages.
+
+Arghajit
